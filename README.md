@@ -1,6 +1,7 @@
 # Temporally Sorting Images from Real-World Events
 Repository with code and (pointers to the) model weights for the paper: 
 
+```
 **Temporally Sorting Images from Real-World Events** 
 
 R. Padilha, F.A. Andaló, B. Lavi, L.A.M. Pereira, A. Rocha 
@@ -8,7 +9,7 @@ R. Padilha, F.A. Andaló, B. Lavi, L.A.M. Pereira, A. Rocha
 Pattern Recognition Letters (volume 147, pages 212-219, 2021)
 
 DOI: [https://doi.org/10.1016/j.patrec.2021.04.027](https://doi.org/10.1016/j.patrec.2021.04.027)
-
+```
 
 Please, if you use or build upon this code, cite the publication above. 
 
@@ -45,6 +46,16 @@ The codes were implemented and tested with the following libraries/packages:
 | [PrettyTable](https://pypi.org/project/prettytable/) | 2.1.0 | 
 
 
+
+---------
+
+## Dataset and Model Weights
+
+The **dataset** can be found [https://doi.org/10.6084/m9.figshare.11787333.v2](https://doi.org/10.6084/m9.figshare.11787333.v2). After downloading it, place both folders ('images' and 'splits') inside this `dataset` folder. 
+
+The **model weights** can be found in this [Google Drive folder](https://drive.google.com/drive/folders/1bjwPE7j0KHRkJlKKUBY4Jx4gFP42-lds?usp=sharing ). After downloading them, place them in the respective `models` folders inside `non_hierarchical` and `hierarchical`. 
+
+Use the **Project Structure** bellow to help you. 
 
 ---------
 
@@ -105,18 +116,19 @@ The codes were implemented and tested with the following libraries/packages:
 
 The folder structure for Non-Hierarchical and Hierarchical pipelines are similar. We provide a quick description of each file within them. Running instructions can be found in each file:
 
-**Data Loaders**
-- **dataLoaderBinary.py** : 
-- **dataLoaderMultiClass.py** : 
+### Data Loaders
+Files responsible for loading and preprocessing images, building batches that are fed for training and testing scripts.
+- *dataLoaderBinary.py* : load batches of images for the Before vs After scenario (binary classification) used mostly during training;
+- *dataLoaderMultiClass.py* : load batches of images in the Multi-class scenario (without coverting labels to Before or After classes), used during evaluation.
 
-**Training**
-- **training.py** :
+### Training
+- *training.py* : training script of the Before vs After models
 
-**Testing / Evaluation**
-- **testing_singleBvAClassifier.py** :
-- **testing_allClassifiers_*.py** :
+### Testing / Evaluation
+- *testing_singleBvAClassifier.py* : testing code for evaluating a single Before vs After model
+- *testing_allClassifiers_*.py* : testing code for evaluating the Non-Hierarchical / Hierarchical pipeline. This is the main evaluation script. 
 
-**Additional Files**
-- **utils.py** :
+### Additional Files
+- *utils.py* : auxiliary methods (e.g., metrics, formating, etc)
 
 
