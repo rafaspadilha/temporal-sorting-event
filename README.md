@@ -1,5 +1,5 @@
 # Temporally Sorting Images from Real-World Events
-Repository with code and (pointers to the) model weights for the paper: 
+Repository with code and (pointers to) model weights for the paper: 
 
 
 >**Temporally Sorting Images from Real-World Events** 
@@ -12,7 +12,7 @@ Repository with code and (pointers to the) model weights for the paper:
 
 Please, if you use or build upon this code, cite the publication above. 
 
-In case you have any doubts, shoot us an email! We will be glad to help and/or answer any question about the method or evaluation. 
+In case you have any doubts, shoot us an email! We will be glad to help and/or answer any questions about the method or evaluation. 
 
 ---------
 
@@ -50,7 +50,7 @@ The codes were implemented and tested with the following libraries/packages:
 
 ## Dataset and Model Weights
 
-The **dataset** can be found [https://doi.org/10.6084/m9.figshare.11787333.v2](https://doi.org/10.6084/m9.figshare.11787333.v2). After downloading it, place both folders ('images' and 'splits') inside this `dataset` folder. 
+The **dataset** can be found at [FigShare](https://doi.org/10.6084/m9.figshare.11787333.v2). After downloading it, place both folders ('images' and 'splits') inside this `dataset` folder. 
 
 The **model weights** can be found in this [Google Drive folder](https://drive.google.com/drive/folders/1bjwPE7j0KHRkJlKKUBY4Jx4gFP42-lds?usp=sharing ). After downloading them, place them in the respective `models` folders inside `non_hierarchical` and `hierarchical`. 
 
