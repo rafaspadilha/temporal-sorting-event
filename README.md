@@ -1,15 +1,14 @@
 # Temporally Sorting Images from Real-World Events
 Repository with code and (pointers to the) model weights for the paper: 
 
-```
-**Temporally Sorting Images from Real-World Events** 
 
-R. Padilha, F.A. Andaló, B. Lavi, L.A.M. Pereira, A. Rocha 
-
-Pattern Recognition Letters (volume 147, pages 212-219, 2021)
-
-DOI: [https://doi.org/10.1016/j.patrec.2021.04.027](https://doi.org/10.1016/j.patrec.2021.04.027)
-```
+>**Temporally Sorting Images from Real-World Events** 
+>
+>R. Padilha, F.A. Andaló, B. Lavi, L.A.M. Pereira, A. Rocha 
+>
+>Pattern Recognition Letters (volume 147, pages 212-219, 2021)
+>
+>DOI: [https://doi.org/10.1016/j.patrec.2021.04.027](https://doi.org/10.1016/j.patrec.2021.04.027)
 
 Please, if you use or build upon this code, cite the publication above. 
 
