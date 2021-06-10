@@ -24,8 +24,7 @@ config.gpu_options.allow_growth = True    #avoid getting all available memory in
 # config.gpu_options.visible_device_list = "6"  #set which GPU to use
 set_session(tf.Session(config=config))
 
-#import densenet
-import os, sys
+import sys
 import numpy as np
 
 from keras.models import load_model

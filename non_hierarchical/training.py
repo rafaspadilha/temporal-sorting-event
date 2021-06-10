@@ -23,7 +23,6 @@ config.gpu_options.allow_growth = True    #avoid getting all available memory in
 set_session(tf.Session(config=config))
 
 
-import numpy as np
 import os, sys
 
 from utils import *
