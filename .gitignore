@@ -4,3 +4,7 @@ non_hierarchical/models/cutoffClass_2/setA/w.epoch-0473_val_loss-0.124818.hdf5
 non_hierarchical/models/cutoffClass_3/setB/w.epoch-0141_val_loss-0.175573.hdf5
 non_hierarchical/models/cutoffClass_3/setA/w.epoch-0084_val_loss-0.175408.hdf5
 non_hierarchical/models/cutoffClass_2/setB/w.epoch-0462_val_loss-0.138809.hdf5
+hierarchical/models/cutoffClass_1/setA/w.epoch-0088_val_loss-0.232605.hdf5
+hierarchical/models/cutoffClass_1/setB/w.epoch-0185_val_loss-0.240775.hdf5
+hierarchical/models/cutoffClass_3/setA/w.epoch-0035_val_loss-0.086825.hdf5
+hierarchical/models/cutoffClass_3/setB/w.epoch-0349_val_loss-0.061852.hdf5
