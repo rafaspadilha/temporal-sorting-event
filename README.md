@@ -2,13 +2,26 @@
 Repository with code and (pointers to the) model weights for the paper: 
 
 **Temporally Sorting Images from Real-World Events** 
+
 R. Padilha, F.A. Andaló, B. Lavi, L.A.M. Pereira, A. Rocha 
+
 Pattern Recognition Letters (volume 147, pages 212-219, 2021)
+
 DOI: [https://doi.org/10.1016/j.patrec.2021.04.027](https://doi.org/10.1016/j.patrec.2021.04.027)
 
 
+Please, if you use or build upon this code, cite the publication above. 
+
+In case you have any doubts, shoot us an email! We will be glad to help and/or answer any question about the method or evaluation. 
+
+---------
+
 ## Abstract
 > As smartphones become ubiquitous in modern life, every major event — from musical concerts to terrorist attempts — is massively captured by multiple devices and instantly uploaded to the Internet. Once shared through social media, the chronological order between available media pieces cannot be reliably recovered, hindering the understanding and reconstruction of that event. In this work, we propose data-driven methods for temporally sorting images originated from heterogeneous sources and captured from distinct angles, viewpoints, and moments. We model the chronological sorting task as an ensemble of binary classifiers whose answers are combined hierarchically to estimate an image’s temporal position within the duration of the event. We evaluate our method on images from the Notre-Dame Catedral fire and the Grenfell Tower fire events and discuss research challenges for analyzing data from real-world forensic events. Finally, we employ visualization techniques to understand what our models have learned, offering additional insights to the problem.
+
+
+![alt text](https://github.com/rafaspadilha/temporal-sorting-event/blob/main/featured.png)
+
 
 
 For more information and recent author publications, please refer to:
@@ -89,4 +102,21 @@ The codes were implemented and tested with the following libraries/packages:
     ├── training.py
     └── utils.py
 ```
+
+The folder structure for Non-Hierarchical and Hierarchical pipelines are similar. We provide a quick description of each file within them. Running instructions can be found in each file:
+
+**Data Loaders**
+- **dataLoaderBinary.py** : 
+- **dataLoaderMultiClass.py** : 
+
+**Training**
+- **training.py** :
+
+**Testing / Evaluation**
+- **testing_singleBvAClassifier.py** :
+- **testing_allClassifiers_*.py** :
+
+**Additional Files**
+- **utils.py** :
+
 
